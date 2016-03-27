@@ -21,16 +21,16 @@
 					<div class="header">
 						<h1><strong>Welcome back</strong></h1>
 					</div>
-					<form name="login" method="get">
-							<input class="noFocus1" type="email" placeholder="Email" required><br>
-							<input class="noFocus2" type="password" placeholder="Password" required><br>
+					<form name="login" action="mainPage.html" method="post" onsubmit="return checkInfo ();">
+							<input class="noFocus1" id="mail" type="email" placeholder="Email"><br>
+							<input class="noFocus2" id="password" type="password" placeholder="Password"><br>
 							<input class="check" type="checkbox" value=""> 
 								<span class="checkBoxtext"> Keep me signed in 
 								</span>
 							<input class="loginButton" type="submit" value="Login">			
 					</form>
 						<div class="forgotPass">
-							<a href=""> Forfot your password?</a>
+							<a href=""> Forgot your password?</a>
 						</div>
 				</section>
 		</div>
@@ -51,6 +51,6 @@
 			</div>
 	</div>
 </div>
-
+<script src="login.js"></script>
 </body>	
 </html>

@@ -131,7 +131,7 @@ section {
 .loginButton {
 	position: relative;
 	margin-top: 20px;
-	margin-left: 500px;
+	float: right;
 	font-size: 28px;
 	background-color: #00CC99;
 	border-radius: 25px;
@@ -208,6 +208,7 @@ section {
 	position: relative;
 	margin-top: 11%;
 	margin-left: 24%;
+	text-align: center;
 }
 
 .copyWrite {
