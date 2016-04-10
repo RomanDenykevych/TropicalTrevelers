@@ -1,0 +1,130 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	max-width: 100%;
+	height: auto;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.centerBlock {
+	margin-top: 100px;
+}
+
+section {
+	width: 50%;
+	height: 350px;
+	position: relative;
+	margin: auto;
+}
+
+.header {
+	width: 50%;
+	text-align: center;
+	font-style: bold;
+	font-size: 20px;
+	color: #00CC99; 
+	margin: auto;
+}
+
+label {
+	float: left;
+	text-align: left;
+	color: #8c8c8c
+}
+
+input {
+	float: right;
+	text-align: left;
+	border-right: 0;
+	border-left: 0;
+	border-top: 0;
+	position: relative;
+
+}
+
+input:focus {
+	outline: 0;
+}
+
+select {
+	float: right;
+	text-align: center;
+}
+
+.genderType {
+	float: right;
+}
+
+
+.loginButton {
+	position: relative;
+	float: right;
+	margin-top: 20px;
+	font-size: 28px;
+	background-color: #00CC99;
+	border-radius: 25px;
+	width: 100px;
+	height: 55px;
+	color: white;
+	-webkit-transition: background-color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+.loginButton:hover {
+	color:  #8c8c8c;
+	background-color: #99ffe4;
+}
+
+.loginButton:focus {
+	outline: 0;
+} 
+
+.loverNavigation li {
+	list-style-type: none;
+	display: inline;
+	margin: 15px;
+}
+
+.loverNavigation a {
+	text-decoration: none;
+	color:#00CC99;
+	font-size: 20px;
+}
+
+.loverNavigation a:hover {
+	text-decoration: underline;
+}
+
+.tweetLogo {
+	width: 30px;
+	height: auto;
+}
+
+.faceLogo {
+	width: 30px;
+	height: auto;
+}
+
+.lowerBlock {
+	width: 100%;
+	margin: auto;
+	position: relative;
+	margin-top: 10%;
+	margin-left: 24px;
+	text-align: center;
+}
+
+.copyWrite {
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	font-size: 18px;
+	position: relative;
+	margin-top: 10px;
+	color:  #8c8c8c;
+}
